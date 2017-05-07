@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45570E71DEABEDD00754AA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570E61DEABEDD00754AA7 /* main.cpp */; };
+		C45571031DEABF1500754AA7 /* BooEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570ED1DEABF1500754AA7 /* BooEdit.cpp */; };
+		C45571041DEABF1500754AA7 /* BooEditLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570EF1DEABF1500754AA7 /* BooEditLog.cpp */; };
+		C45571051DEABF1500754AA7 /* EditorModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570F31DEABF1500754AA7 /* EditorModel.cpp */; };
+		C45571061DEABF1500754AA7 /* InteractionProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570F71DEABF1500754AA7 /* InteractionProcessor.cpp */; };
+		C45571071DEABF1500754AA7 /* KeypressInteractionReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570FC1DEABF1500754AA7 /* KeypressInteractionReader.cpp */; };
+		C45571081DEABF1500754AA7 /* NcursesEditorView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45570FF1DEABF1500754AA7 /* NcursesEditorView.cpp */; };
+		C45571091DEABF1500754AA7 /* NcursesKeypressReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C45571011DEABF1500754AA7 /* NcursesKeypressReader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C45570E11DEABEDD00754AA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C45570E31DEABEDD00754AA7 /* Project 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45570E61DEABEDD00754AA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C45570ED1DEABF1500754AA7 /* BooEdit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BooEdit.cpp; sourceTree = "<group>"; };
+		C45570EE1DEABF1500754AA7 /* BooEdit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BooEdit.hpp; sourceTree = "<group>"; };
+		C45570EF1DEABF1500754AA7 /* BooEditLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BooEditLog.cpp; sourceTree = "<group>"; };
+		C45570F01DEABF1500754AA7 /* BooEditLog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BooEditLog.hpp; sourceTree = "<group>"; };
+		C45570F11DEABF1500754AA7 /* Command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
+		C45570F21DEABF1500754AA7 /* EditorException.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EditorException.hpp; sourceTree = "<group>"; };
+		C45570F31DEABF1500754AA7 /* EditorModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EditorModel.cpp; sourceTree = "<group>"; };
+		C45570F41DEABF1500754AA7 /* EditorModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EditorModel.hpp; sourceTree = "<group>"; };
+		C45570F51DEABF1500754AA7 /* EditorView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EditorView.hpp; sourceTree = "<group>"; };
+		C45570F61DEABF1500754AA7 /* Interaction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Interaction.hpp; sourceTree = "<group>"; };
+		C45570F71DEABF1500754AA7 /* InteractionProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteractionProcessor.cpp; sourceTree = "<group>"; };
+		C45570F81DEABF1500754AA7 /* InteractionProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InteractionProcessor.hpp; sourceTree = "<group>"; };
+		C45570F91DEABF1500754AA7 /* InteractionReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InteractionReader.hpp; sourceTree = "<group>"; };
+		C45570FA1DEABF1500754AA7 /* InteractionType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InteractionType.hpp; sourceTree = "<group>"; };
+		C45570FB1DEABF1500754AA7 /* Keypress.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Keypress.hpp; sourceTree = "<group>"; };
+		C45570FC1DEABF1500754AA7 /* KeypressInteractionReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeypressInteractionReader.cpp; sourceTree = "<group>"; };
+		C45570FD1DEABF1500754AA7 /* KeypressInteractionReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeypressInteractionReader.hpp; sourceTree = "<group>"; };
+		C45570FE1DEABF1500754AA7 /* KeypressReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeypressReader.hpp; sourceTree = "<group>"; };
+		C45570FF1DEABF1500754AA7 /* NcursesEditorView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NcursesEditorView.cpp; sourceTree = "<group>"; };
+		C45571001DEABF1500754AA7 /* NcursesEditorView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NcursesEditorView.hpp; sourceTree = "<group>"; };
+		C45571011DEABF1500754AA7 /* NcursesKeypressReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NcursesKeypressReader.cpp; sourceTree = "<group>"; };
+		C45571021DEABF1500754AA7 /* NcursesKeypressReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NcursesKeypressReader.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45570E01DEABEDD00754AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45570DA1DEABEDD00754AA7 = {
+			isa = PBXGroup;
+			children = (
+				C45570E51DEABEDD00754AA7 /* Project 4 */,
+				C45570E41DEABEDD00754AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45570E41DEABEDD00754AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45570E31DEABEDD00754AA7 /* Project 4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45570E51DEABEDD00754AA7 /* Project 4 */ = {
+			isa = PBXGroup;
+			children = (
+				C45570E61DEABEDD00754AA7 /* main.cpp */,
+				C45570ED1DEABF1500754AA7 /* BooEdit.cpp */,
+				C45570EE1DEABF1500754AA7 /* BooEdit.hpp */,
+				C45570EF1DEABF1500754AA7 /* BooEditLog.cpp */,
+				C45570F01DEABF1500754AA7 /* BooEditLog.hpp */,
+				C45570F11DEABF1500754AA7 /* Command.hpp */,
+				C45570F21DEABF1500754AA7 /* EditorException.hpp */,
+				C45570F31DEABF1500754AA7 /* EditorModel.cpp */,
+				C45570F41DEABF1500754AA7 /* EditorModel.hpp */,
+				C45570F51DEABF1500754AA7 /* EditorView.hpp */,
+				C45570F61DEABF1500754AA7 /* Interaction.hpp */,
+				C45570F71DEABF1500754AA7 /* InteractionProcessor.cpp */,
+				C45570F81DEABF1500754AA7 /* InteractionProcessor.hpp */,
+				C45570F91DEABF1500754AA7 /* InteractionReader.hpp */,
+				C45570FA1DEABF1500754AA7 /* InteractionType.hpp */,
+				C45570FB1DEABF1500754AA7 /* Keypress.hpp */,
+				C45570FC1DEABF1500754AA7 /* KeypressInteractionReader.cpp */,
+				C45570FD1DEABF1500754AA7 /* KeypressInteractionReader.hpp */,
+				C45570FE1DEABF1500754AA7 /* KeypressReader.hpp */,
+				C45570FF1DEABF1500754AA7 /* NcursesEditorView.cpp */,
+				C45571001DEABF1500754AA7 /* NcursesEditorView.hpp */,
+				C45571011DEABF1500754AA7 /* NcursesKeypressReader.cpp */,
+				C45571021DEABF1500754AA7 /* NcursesKeypressReader.hpp */,
+			);
+			path = "Project 4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45570E21DEABEDD00754AA7 /* Project 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45570EA1DEABEDD00754AA7 /* Build configuration list for PBXNativeTarget "Project 4" */;
+			buildPhases = (
+				C45570DF1DEABEDD00754AA7 /* Sources */,
+				C45570E01DEABEDD00754AA7 /* Frameworks */,
+				C45570E11DEABEDD00754AA7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 4";
+			productName = "Project 4";
+			productReference = C45570E31DEABEDD00754AA7 /* Project 4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45570DB1DEABEDD00754AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Disha Jagtap";
+				TargetAttributes = {
+					C45570E21DEABEDD00754AA7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B4N22K5Q8K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C45570DE1DEABEDD00754AA7 /* Build configuration list for PBXProject "Project 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C45570DA1DEABEDD00754AA7;
+			productRefGroup = C45570E41DEABEDD00754AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45570E21DEABEDD00754AA7 /* Project 4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45570DF1DEABEDD00754AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45571051DEABF1500754AA7 /* EditorModel.cpp in Sources */,
+				C45571031DEABF1500754AA7 /* BooEdit.cpp in Sources */,
+				C45571041DEABF1500754AA7 /* BooEditLog.cpp in Sources */,
+				C45571071DEABF1500754AA7 /* KeypressInteractionReader.cpp in Sources */,
+				C45570E71DEABEDD00754AA7 /* main.cpp in Sources */,
+				C45571061DEABF1500754AA7 /* InteractionProcessor.cpp in Sources */,
+				C45571091DEABF1500754AA7 /* NcursesKeypressReader.cpp in Sources */,
+				C45571081DEABF1500754AA7 /* NcursesEditorView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C45570E81DEABEDD00754AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C45570E91DEABEDD00754AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C45570EB1DEABEDD00754AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B4N22K5Q8K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45570EC1DEABEDD00754AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B4N22K5Q8K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45570DE1DEABEDD00754AA7 /* Build configuration list for PBXProject "Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45570E81DEABEDD00754AA7 /* Debug */,
+				C45570E91DEABEDD00754AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45570EA1DEABEDD00754AA7 /* Build configuration list for PBXNativeTarget "Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45570EB1DEABEDD00754AA7 /* Debug */,
+				C45570EC1DEABEDD00754AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45570DB1DEABEDD00754AA7 /* Project object */;
+}
